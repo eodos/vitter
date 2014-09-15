@@ -6,8 +6,7 @@ Rails.application.routes.draw do
   get 'about'   => 'static_pages#about'
   get 'signup'  => 'users#new'
   get 'login'   => 'sessions#new'
-  #get 'logout'  => 'sessions#destroy'
-  match 'logout', to: 'sessions#destroy', via: 'delete'
+  delete 'logout'  => 'sessions#destroy'
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 
