@@ -16,16 +16,20 @@ This app can be deployed directly to **heroku**.
 
 ## Database initialization
 Run the following command:
+
 *rake db:migrate*
 
 ## How to run the test suite
 To run the test suite (minitest), run the following instructions:
+
 *rake test:prepare*
+
 *rake test*
 
 ## Services (job queues, cache servers, search engines, etc.)
 Consider to use the **foreman** gem to run locally the app (development ie). Foreman configuration is saved in the file
 **Procfile**. Run with:
+
 *foreman start*
 
 ## Deployment instructions
