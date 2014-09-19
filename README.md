@@ -27,7 +27,7 @@ To run the test suite (minitest), run the following instructions:
 *rake test*
 
 ## Services (job queues, cache servers, search engines, etc.)
-Consider to use the **foreman** gem to run locally the app (development ie). Foreman configuration is saved in the file
+Consider to use the **foreman** gem to run locally the app (development ie). Foreman configuration is saved in the
 **Procfile**. Run with:
 
 *foreman start*
