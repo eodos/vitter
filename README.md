@@ -1,9 +1,11 @@
 # README
 
+![Build Status](https://travis-ci.org/eodos/vitter.svg?branch=master)
+
 Vitter is a twitter-like app developed with Ruby of Rails (RoR).
 
 ## Ruby version
-Ruby 2.1.2 and Rails 4.3.
+Ruby 2.2.3 and Rails 4.2.4
 
 ## System dependencies
 Configured to use a PostgreSQL database in production.
@@ -27,10 +29,10 @@ To run the test suite (minitest), run the following instructions:
 *rake test*
 
 ## Services (job queues, cache servers, search engines, etc.)
-Consider to use the **foreman** gem to run locally the app (development ie). Foreman configuration is saved in the
+Consider to use the **puma** gem to run locally the app (development ie). Puma configuration is saved in the
 **Procfile**. Run with:
 
-*foreman start*
+*puma*
 
 ## Deployment instructions
 ...
