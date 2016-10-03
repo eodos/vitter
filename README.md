@@ -5,7 +5,7 @@
 Vitter is a twitter-like app developed with Ruby of Rails (RoR).
 
 ## Ruby version
-Ruby 2.2.3 and Rails 4.2.4
+Ruby 2.3.1 and Rails 5.0.0
 
 ## System dependencies
 Configured to use a PostgreSQL database in production.
